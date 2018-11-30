@@ -9,7 +9,7 @@ Deprecating GConf
  (for users items and preferences), or the system admin must run a
  script (for mandatory items).
  
- Note that this does not break backward compatibility. The 3.1.x serie
+ Note that this does not break backward compatibility. The 3.1.x series
  of Nautilus-Actions may still be run on a "old" platform. The oldest
  supported as of January 2011 was Ubuntu 8 LTS.
  

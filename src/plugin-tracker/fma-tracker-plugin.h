@@ -35,7 +35,7 @@
  * @short_description: #FMATrackerPlugin class definition.
  * @include: tracker/fma-tracker-plugin.h
  *
- * The #FMATrackerPlugin object is instanciated when Nautilus file manager loads
+ * The #FMATrackerPlugin object is instantiated when Nautilus file manager loads
  * this plugin (this is the normal behavior of Nautilus to instanciate one
  * object of each plugin type).
  *

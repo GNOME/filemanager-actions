@@ -41,7 +41,7 @@
  * The FMATreeView encapsulates the GtkTreeView which displays the items
  * list on the left of the main pane.
  *
- * It is instanciated from FMAMainWindow::on_initialize_gtk().
+ * It is instantiated from FMAMainWindow::on_initialize_gtk().
  *
  * A pointer to this FMATreeView is attached to the FMAMainWindow at
  * construction time.

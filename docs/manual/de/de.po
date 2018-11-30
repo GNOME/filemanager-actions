@@ -760,7 +760,7 @@ msgid "Statusbar."
 msgstr "Statuszeile."
 
 #: C/fma-config-tool.xml:401(para)
-msgid "The statusbar displays some status informations about the currently selected row in the items list."
+msgid "The statusbar displays some status information about the currently selected row in the items list."
 msgstr "Die Statuszeile zeigt einige Statusinformationen über die aktuell ausgewählte Zeile in der Objektliste an."
 
 #: C/fma-config-tool.xml:405(para)
@@ -776,7 +776,7 @@ msgid "Creating your first action"
 msgstr "Erstellen Ihrer ersten Aktion"
 
 #: C/fma-config-tool.xml:424(para)
-msgid "In this example, we are going to create an action which displays some pretty informations about the current selection."
+msgid "In this example, we are going to create an action which displays some pretty information about the current selection."
 msgstr "In diesem Beispiel erstellen wir eine Aktion, die einige nützliche Informationen über die aktuelle Auswahl zur Verfügung stellt."
 
 #: C/fma-config-tool.xml:429(title)
@@ -2689,12 +2689,12 @@ msgid "Shows the tab which lets you define I/O providers preferences."
 msgstr "Zeigt den Reiter, in welchem Sie Ein-/Ausgabetreiber konfigurieren können."
 
 #: C/fma-config-tool.xml:180(title)
-msgid "Miscellaneous informations"
+msgid "Miscellaneous information"
 msgstr "Verschiedene Informationen"
 
 #: C/fma-config-tool.xml:1(para)
 msgid ""
-"The new action is also displayed in red color in the items list. Red color is used as an indicator that the item is invalid, that is that the item cannot be candidate to be displayed in a file manager context menu because some of its informations are missing or erroneous. Here, and though this newly inserted action has some suitable defaults, it lacks a command to be executed to be considered "
+"The new action is also displayed in red color in the items list. Red color is used as an indicator that the item is invalid, that is that the item cannot be candidate to be displayed in a file manager context menu because some of its information is missing or erroneous. Here, and though this newly inserted action has some suitable defaults, it lacks a command to be executed to be considered "
 "valid by <application>FileManager-Actions configuration tool</application>"
 msgstr ""
 "Die neue Aktion wird rot in der Objektliste dargestellt. Rote Farbe bedeutet, dass das Objekt ungültig ist, was zur Folge hat, dass es nicht für die Anzeige in einem Kontextmenü von der Dateiverwaltung in Frage kommt. Einige Informationen fehlen oder sind fehlerhaft. In diesem Fall fehlt trotz bereits vorhandener Voreinstellungen ein auszuführender Befehl, der von <application>Einstellungen für "

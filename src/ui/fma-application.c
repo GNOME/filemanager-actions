@@ -235,7 +235,7 @@ fma_application_new( void )
  * Takes care of creating, initializing, and running the main window.
  *
  * All steps are implemented as virtual functions which provide some
- * suitable defaults, and may be overriden by a derived class.
+ * suitable defaults, and may be overridden by a derived class.
  *
  * Returns: an %int code suitable as an exit code for the program.
  *
@@ -461,7 +461,7 @@ application_activate( GApplication *application )
 	if( !st_non_unique_opt ){
 		if( !g_list_length( windows_list )){
 			main_window = fma_main_window_new( FMA_APPLICATION( application ));
-			g_debug( "%s: main window instanciated at %p", thisfn, main_window );
+			g_debug( "%s: main window instantiated at %p", thisfn, main_window );
 		} else {
 			main_window = ( FMAMainWindow * ) windows_list->data;
 		}

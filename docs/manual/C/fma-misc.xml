@@ -3,7 +3,7 @@
           list.
           Red color is used as an indicator that the item is invalid,
           that is that the item cannot be candidate to be displayed in
-          a file manager context menu because some of its informations are
+          a file manager context menu because some of its information is
           missing or erroneous.
           Here, and though this newly inserted action has some suitable
           defaults, it lacks a command to be executed to be considered

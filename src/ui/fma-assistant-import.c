@@ -86,7 +86,7 @@ struct _FMAAssistantImportPrivate {
 	GtkTreeView *duplicates_listview;
 	FMAIOption  *mode;
 	GList       *results;
-	GList       *overriden;
+	GList       *overridden;
 };
 
 static const gchar        *st_xmlui_filename = PKGUIDIR "/fma-assistant-import.ui";
@@ -615,7 +615,7 @@ assistant_apply( BaseAssistant *wnd, GtkAssistant *assistant )
 	FMAImporterParms importer_parms;
 	BaseWindow *main_window;
 	GList *import_results, *it;
-	GList *insertable_items, *overriden_items;
+	GList *insertable_items, *overridden_items;
 	FMAImporterResult *result;
 	FMAApplication *application;
 	FMAUpdater *updater;
@@ -644,7 +644,7 @@ assistant_apply( BaseAssistant *wnd, GtkAssistant *assistant )
 	import_results = fma_importer_import_from_uris( FMA_PIVOT( updater ), &importer_parms );
 
 	insertable_items = NULL;
-	overriden_items = NULL;
+	overridden_items = NULL;
 
 	for( it = import_results ; it ; it = it->next ){
 		result = ( FMAImporterResult * ) it->data;
@@ -654,7 +654,7 @@ assistant_apply( BaseAssistant *wnd, GtkAssistant *assistant )
 				insertable_items = g_list_prepend( insertable_items, result->imported );
 
 			} else if( result->mode == IMPORTER_MODE_OVERRIDE ){
-				overriden_items = g_list_prepend( overriden_items, result->imported );
+				overridden_items = g_list_prepend( overridden_items, result->imported );
 			}
 		}
 	}
@@ -679,10 +679,10 @@ assistant_apply( BaseAssistant *wnd, GtkAssistant *assistant )
 	/* contrarily, the tree store may or not take a new reference on overriding
 	 * items, so do not release it here
 	 */
-	if( overriden_items ){
+	if( overridden_items ){
 		items_view = fma_main_window_get_items_view( FMA_MAIN_WINDOW( main_window ));
-		fma_tree_ieditable_set_items( FMA_TREE_IEDITABLE( items_view ), overriden_items );
-		window->private->overriden = overriden_items;
+		fma_tree_ieditable_set_items( FMA_TREE_IEDITABLE( items_view ), overridden_items );
+		window->private->overridden = overridden_items;
 	}
 }
 
@@ -798,8 +798,8 @@ prepare_importdone( FMAAssistantImport *window, GtkAssistant *assistant, GtkWidg
 
 	/* release here our reference on overriding items
 	 */
-	if( window->private->overriden ){
-		fma_object_free_items( window->private->overriden );
+	if( window->private->overridden ){
+		fma_object_free_items( window->private->overridden );
 	}
 
 	g_object_set( G_OBJECT( window ), BASE_PROP_WARN_ON_ESCAPE, FALSE, NULL );

@@ -49,7 +49,7 @@ static NaxmlExportFormat fma_xml_formats[] = {
 
 	/* GCONF_SCHEMA_V1: a schema with owner, short and long descriptions;
 	 * each action has its own schema addressed by the id
-	 * (historical format up to v1.10.x serie)
+	 * (historical format up to v1.10.x series)
 	 */
 	{ FMA_XML_FORMAT_GCONF_SCHEMA_V1,
 			N_( "Export as a _full GConf schema file" ),
@@ -65,7 +65,7 @@ static NaxmlExportFormat fma_xml_formats[] = {
 	 */
 	{ FMA_XML_FORMAT_GCONF_SCHEMA_V2,
 			N_( "Export as a _light GConf schema (v2) file" ),
-			N_( "This format has been introduced in v 1.11 serie.\n" \
+			N_( "This format has been introduced in v 1.11 series.\n" \
 				"This is the lightest schema still compatible with GConf command-line tools, " \
 				"while keeping backward compatibility with the FileManager-Actions Configuration " \
 				"Tool oldest versions.\n"
@@ -80,8 +80,8 @@ static NaxmlExportFormat fma_xml_formats[] = {
 	 */
 	{ FMA_XML_FORMAT_GCONF_ENTRY,
 			N_( "Export as a GConf _dump file" ),
-			N_( "This format has been introduced in v 1.11 serie.\n" \
-				"Tough not backward compatible with FileManager-Actions " \
+			N_( "This format has been introduced in v 1.11 series.\n" \
+				"Though not backward compatible with FileManager-Actions " \
 				"Configuration Tool versions previous to 1.11, " \
 				"it may still be imported via standard GConf command-line tools.\n" \
 				"The exported dump file may later be imported via :\n" \

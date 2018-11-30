@@ -41,7 +41,7 @@
  * - do not load twice the .xml files;
  * - destroy Gtk toplevels at dispose time.
  *
- * A common #Basebuilder object is instanciated at #BaseWindow class level.
+ * A common #Basebuilder object is instantiated at #BaseWindow class level.
  * Each #Basewindow -derived object may later use this common #BaseBuilder
  * object, or allocate its own.
  */

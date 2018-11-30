@@ -399,7 +399,7 @@
           <term>Statusbar.</term>
           <listitem>
             <para>
-              The statusbar displays some status informations about the
+              The statusbar displays some status information about the
               currently selected row in the items list.
             </para>
             <para>
@@ -423,7 +423,7 @@
       <title>Creating your first action</title>
       <para>
         In this example, we are going to create an action which displays
-        some pretty informations about the current selection.
+        some pretty information about the current selection.
       </para>
       <formalpara>
         <title>Checking for prerequisites</title>

@@ -852,7 +852,7 @@ drop_uri_list( FMATreeModel *model, GtkTreePath *dest, GtkSelectionData  *select
 	GList *import_results, *it;
 	guint count;
 	GSList *im;
-	GList *imported, *overriden;
+	GList *imported, *overridden;
 	const gchar *selection_data_data;
 	FMATreeView *view;
 	GSList *messages;
@@ -896,7 +896,7 @@ drop_uri_list( FMATreeModel *model, GtkTreePath *dest, GtkSelectionData  *select
 	 * of all lines of messages, and the list of imported items
 	 */
 	imported = NULL;
-	overriden = NULL;
+	overridden = NULL;
 	messages = NULL;
 
 	for( it = import_results ; it ; it = it->next ){
@@ -911,7 +911,7 @@ drop_uri_list( FMATreeModel *model, GtkTreePath *dest, GtkSelectionData  *select
 				fma_updater_check_item_writability_status( updater, result->imported );
 
 			} else if( result->mode == IMPORTER_MODE_OVERRIDE ){
-				overriden = g_list_prepend( overriden, result->imported );
+				overridden = g_list_prepend( overridden, result->imported );
 			}
 		}
 	}
@@ -951,16 +951,16 @@ drop_uri_list( FMATreeModel *model, GtkTreePath *dest, GtkSelectionData  *select
 	/* override items if needed
 	 * they may safely be released after having updated the store
 	 */
-	if( overriden ){
-		fma_object_dump_tree( overriden );
+	if( overridden ){
+		fma_object_dump_tree( overridden );
 		view = fma_main_window_get_items_view( main_window );
-		fma_tree_ieditable_set_items( FMA_TREE_IEDITABLE( view ), overriden );
-		fma_object_free_items( overriden );
+		fma_tree_ieditable_set_items( FMA_TREE_IEDITABLE( view ), overridden );
+		fma_object_free_items( overridden );
 	}
 
 	drop_done = TRUE;
 	fma_object_free_items( imported );
-	fma_object_free_items( overriden );
+	fma_object_free_items( overridden );
 	fma_core_utils_slist_free( parms.uris );
 
 	for( it = import_results ; it ; it = it->next ){

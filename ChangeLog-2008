@@ -1182,7 +1182,7 @@
 	* nact/nact.desktop.in.in: 
 	* nact/nautilus-actions-config.glade: Replace the old icon by the new one
 
-	* nact/nautilus-actions-config.glade: Update informations of the about
+	* nact/nautilus-actions-config.glade: Update information of the about
 	dialog (license and project URL)
 
 

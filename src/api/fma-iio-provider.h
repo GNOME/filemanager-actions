@@ -486,7 +486,7 @@ typedef struct {
  * @IIO_PROVIDER_STATUS_ITEM_READONLY:     item is read-only.
  * @IIO_PROVIDER_STATUS_NO_PROVIDER_FOUND: no writable i/o provider found.
  * @IIO_PROVIDER_STATUS_LEVEL_ZERO:        level zero is not writable.
- * @IIO_PROVIDER_STATUS_UNDETERMINED:      unknwon reason (and probably a bug).
+ * @IIO_PROVIDER_STATUS_UNDETERMINED:      unknown reason (and probably a bug).
  *
  * The reasons for which an item may not be writable.
  *

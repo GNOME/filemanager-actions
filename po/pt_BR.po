@@ -610,7 +610,7 @@ msgid ""
 "Capabilities may be negated.\n"
 "Capabilities have to be chosen between following predefined ones:\n"
 "• “Owner”: current user is the owner of selected items\n"
-"• “Readable”: selected items are readable by user (probably more usefull "
+"• “Readable”: selected items are readable by user (probably more useful "
 "when negated)\n"
 "• “Writable”: selected items are writable by user\n"
 "• “Executable”: selected items are executable by user\n"
@@ -657,7 +657,7 @@ msgid "Item was renumbered due to user request."
 msgstr "Item renumerado a pedido do usuário."
 
 #: ../src/core/fma-iimporter.c:279 ../src/core/fma-importer.c:335
-msgid "Existing item was overriden due to user request."
+msgid "Existing item was overridden due to user request."
 msgstr "Item existente foi substituído a pedido do usuário."
 
 #: ../src/core/fma-iimporter.c:286 ../src/core/fma-importer.c:344
@@ -1154,7 +1154,7 @@ msgid ""
 "The parameters of the command to be executed when the user selects the menu "
 "item in the file manager context menu or in the toolbar.\n"
 "The parameters may contain some special tokens which are replaced by the "
-"informations provided by the file manager before starting the command:\n"
+"information provided by the file manager before starting the command:\n"
 "• up to version 2.0:\n"
 "  %d: base folder of the selected file(s)\n"
 "  %f: the name of the selected file or the first one if several are "
@@ -1338,7 +1338,7 @@ msgstr ""
 
 #: ../src/core/fma-selected-info.c:809
 #, c-format
-msgid "Error when querying informations for %s URI: %s"
+msgid "Error when querying information for %s URI: %s"
 msgstr "Erro ao consultar informações para %s URI: %s"
 
 #: ../src/core/fma-tokens.c:251
@@ -1391,7 +1391,7 @@ msgstr "Exportar como um arquivo ._desktop"
 
 #: ../src/io-desktop/fma-desktop-formats.c:57
 msgid ""
-"This format has been introduced with v 3.0 serie, and should be your newly "
+"This format has been introduced with v 3.0 series, and should be your newly "
 "preferred format when exporting items.\n"
 "It let you easily share your actions with the whole world, including with "
 "users of other desktop environments, as long as their own application "
@@ -1489,7 +1489,7 @@ msgstr "Exportar como um arquivo de esquema (v2) GConf _leve"
 
 #: ../src/io-xml/fma-xml-formats.c:68
 msgid ""
-"This format has been introduced in v 1.11 serie.\n"
+"This format has been introduced in v 1.11 series.\n"
 "This is the lightest schema still compatible with GConf command-line tools, "
 "while keeping backward compatibility with the FileManager-Actions "
 "Configuration Tool oldest versions.\n"
@@ -1515,8 +1515,8 @@ msgstr "Exportar como um arquivo de esquema GConf de despe_jo"
 
 #: ../src/io-xml/fma-xml-formats.c:83
 msgid ""
-"This format has been introduced in v 1.11 serie.\n"
-"Tough not backward compatible with FileManager-Actions Configuration Tool "
+"This format has been introduced in v 1.11 series.\n"
+"Though not backward compatible with FileManager-Actions Configuration Tool "
 "versions previous to 1.11, it may still be imported via standard GConf "
 "command-line tools.\n"
 "The exported dump file may later be imported via :\n"
@@ -3123,7 +3123,7 @@ msgstr "novo-filtro"
 
 #. i18n: status bar tooltip displayed on “About” item navigation
 #: ../src/ui/fma-menu.c:97 ../src/ui/fma-toolbar.ui.h:21
-msgid "Display informations about this program"
+msgid "Display information about this program"
 msgstr "Exibe informações sobre este programa"
 
 #. i18n: status bar tooltip displayed on “Help” item navigation
@@ -5052,7 +5052,7 @@ msgstr "Erro: um valor é obrigatório.\n"
 #~ "The parameters of the command to be executed when the user selects the "
 #~ "menu item in the file manager context menu or in the toolbar.\n"
 #~ "The parameters may contain some special tokens which are replaced by the "
-#~ "informations provided by the file manager before starting the command:\n"
+#~ "information provided by the file manager before starting the command:\n"
 #~ "%d: base folder of the selected file(s)\n"
 #~ "%f: the name of the selected file or the first one if several are "
 #~ "selected\n"

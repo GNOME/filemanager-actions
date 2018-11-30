@@ -370,7 +370,7 @@ config_path_changed_cb( GConfClient *client, guint cnxn_id, GConfEntry *entry, F
 }
 
 /*
- * this timer is set when we receive the first event of a serie
+ * this timer is set when we receive the first event of a series
  * we continue to loop until last event is older that the st_burst_timeout
  * delay (in msec)
  * there is no race condition here as we are not multithreaded

@@ -1189,7 +1189,7 @@ Version 1.12.3
 
 	Release date 2009-11-07
 
-	This is the third bugfix release of the 1.12 serie.
+	This is the third bugfix release of the 1.12 series.
 
 	Bugfixes
 
@@ -1447,7 +1447,7 @@ Version 1.11.0 [unstable]
 
 	Release date 2009-06-09
 
-	This is the first intermediate release in the 1.11 serie.
+	This is the first intermediate release in the 1.11 series.
 
 	It includes a full rewriting of the action/profile object
 	hierarchy, along with the system of change notification. It also

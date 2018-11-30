@@ -53,7 +53,7 @@ fma_timeout_event( FMATimeout *event )
 }
 
 /*
- * this timer is set when we receive the first event of a serie
+ * this timer is set when we receive the first event of a series
  * we continue to loop until last event is older that our burst timeout
  */
 static gboolean

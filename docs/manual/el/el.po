@@ -1035,7 +1035,7 @@ msgstr "Γραμμή κατάστασης."
 
 #: C/nautilus-actions-config-tool.xml:401(para)
 msgid ""
-"The statusbar displays some status informations about the currently selected "
+"The statusbar displays some status information about the currently selected "
 "row in the items list."
 msgstr ""
 "Η γραμμής κατάστασης εμφανίζει κάποιες πληροφορίες κατάστασης για την "
@@ -1065,7 +1065,7 @@ msgstr "Δημιουργία της πρώτης σας ενέργειας"
 #: C/nautilus-actions-config-tool.xml:424(para)
 msgid ""
 "In this example, we are going to create an action which displays some pretty "
-"informations about the current selection."
+"information about the current selection."
 msgstr ""
 "Σε αυτό το παράδειγμα, πρόκειται να δημιουργήσουμε μια ενέργεια που "
 "εμφανίζει μερικές επιμελημένες πληροφορίες για την τρέχουσα επιλογή."
@@ -4366,7 +4366,7 @@ msgstr ""
 "εισαγωγής/εξαγωγής."
 
 #: C/nautilus-actions-config-tool.xml:171(title)
-msgid "Miscellaneous informations"
+msgid "Miscellaneous information"
 msgstr "Ποικίλες πληροφορίες"
 
 #: C/nautilus-actions-config-tool.xml:1(para)
@@ -4374,7 +4374,7 @@ msgid ""
 "The new action is also displayed in red color in the items list. Red color "
 "is used as an indicator that the item is invalid, that is that the item "
 "cannot be candidate to be displayed in a <productname>Nautilus</productname> "
-"context menu because some of its informations are missing or erroneous. "
+"context menu because some of its information is missing or erroneous. "
 "Here, and though this newly inserted action has some suitable defaults, it "
 "lacks a command to be executed to be considered valid by "
 "<application>FileManager-Actions Configuration Tool</application>"

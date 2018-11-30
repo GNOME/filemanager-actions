@@ -818,7 +818,7 @@ read_done_item_set_localized_icon( FMAXMLReader *reader, FMAObjectItem *item )
  * has already allocated and define the corresponding profile
  * -> deals here with v2 and post, i.e. with profiles
  *
- * Also note that profiles order has been introduced in 2.29 serie
+ * Also note that profiles order has been introduced in 2.29 series
  */
 static void
 read_done_action_read_profiles( FMAXMLReader *reader, FMAObjectAction *action )

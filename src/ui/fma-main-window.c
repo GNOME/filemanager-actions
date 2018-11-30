@@ -1076,7 +1076,7 @@ setup_current_selection( FMAMainWindow *window, FMAObjectId *selected_row )
 }
 
 /*
- * the title bar of the main window brings up three informations:
+ * the title bar of the main window brings up three pieces of information:
  * - the name of the application
  * - the name of the currently selected item if there is only one
  * - an asterisk if anything has been modified

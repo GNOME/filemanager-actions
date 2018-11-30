@@ -1068,7 +1068,7 @@ execute_about( FileManagerMenuItem *item, FMAMenuPlugin *plugin )
  * Not only the items list itself, but also several runtime preferences have
  * an effect on the display of items in file manager context menu.
  *
- * We of course monitor here all these informations; only asking FMAPivot
+ * We of course monitor here all this information; only asking FMAPivot
  * for reloading its items when we detect the end of a burst of changes.
  *
  * Only when FMAPivot has finished with reloading its items list, then we

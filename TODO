@@ -17,10 +17,10 @@ FileManager-Actions - TODO
   19 2010- 6-17 implement shortcut button in IPropertiesTab page
 
   22 2011- 2- 7 is_level_zero_writable: should be monitored
-                for now, is only evaluated when NAUpdater is instanciated
+                for now, is only evaluated when NAUpdater is instantiated
 
   23 2011-02-07 are_preferences_locked: should be monitored
-                for now, is only evaluated when NAUpdater is instanciated
+                for now, is only evaluated when NAUpdater is instantiated
 
   25 2011-02-23 implement item separator (to build menu section)
 

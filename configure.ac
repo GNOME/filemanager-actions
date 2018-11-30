@@ -177,7 +177,7 @@ AC_CONFIG_FILES([
 	src/utils/Makefile
 ])
 
-# display and keep configuration informations
+# display and keep configuration information
 config_options="`$as_echo "$ac_configure_args" | sed 's/^ //; s/[\\""\`\$]/\\\\&/g'`" 
 AC_DEFINE_UNQUOTED([FMA_CONFIG_OPTIONS],["$0 ${config_options}"],["Configure options"])
 

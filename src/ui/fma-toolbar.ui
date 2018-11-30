@@ -173,7 +173,7 @@
       <object class="GtkToolButton" id="about-btn">
         <property name="visible">True</property>
         <property name="can_focus">False</property>
-        <property name="tooltip_text" translatable="yes">Display informations about this program</property>
+        <property name="tooltip_text" translatable="yes">Display information about this program</property>
         <property name="action_name">app.about</property>
         <property name="label" translatable="yes">_About…</property>
         <property name="use_underline">True</property>

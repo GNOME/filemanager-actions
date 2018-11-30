@@ -37,7 +37,7 @@
  *
  * This is the main class for filemanager-actions-config-tool program.
  *
- * The #FMAApplication object is instanciated from main() function,
+ * The #FMAApplication object is instantiated from main() function,
  * then later #g_object_unref() after fma_application_run() has
  * returned.
  *

@@ -719,7 +719,7 @@ Please note that each element of the specified list must be considered as ANDed,
 Capabilities have to be chosen between following predefined ones:
 <ul>
 <li>"<?php code( "Owner" ); ?>": current user is the owner of selected items</li>
-<li>"<?php code( "Readable" ); ?>": selected items are readable by user (probably more usefull when negated)</li>
+<li>"<?php code( "Readable" ); ?>": selected items are readable by user (probably more useful when negated)</li>
 <li>"<?php code( "Writable" ); ?>": selected items are writable by user</li>
 <li>"<?php code( "Executable" ); ?>": selected items are executable by user</li>
 <li>"<?php code( "Local" ); ?>": selected items are local</li>

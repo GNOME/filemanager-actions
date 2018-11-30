@@ -35,7 +35,7 @@
  * @include: core/fma-about.h
  *
  * These functions displays the 'About FileManager-Actions' dialog box,
- * and provides contant informations about the application.
+ * and provides contant information about the application.
  */
 
 #include <gtk/gtk.h>

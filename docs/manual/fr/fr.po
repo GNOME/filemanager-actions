@@ -1009,7 +1009,7 @@ msgstr "Une barre d'état."
 
 #: C/nautilus-actions-config-tool.xml:391(para)
 msgid ""
-"The statusbar displays some status informations about the currently selected "
+"The statusbar displays some status information about the currently selected "
 "row in the items list."
 msgstr ""
 "Cette barre affiche des informations d'état à propos de l'élément sur la "
@@ -1038,7 +1038,7 @@ msgstr "Création de votre première action"
 #: C/nautilus-actions-config-tool.xml:412(para)
 msgid ""
 "In this example, we are going to create an action which displays some pretty "
-"informations about the current selection."
+"information about the current selection."
 msgstr ""
 "Dans cet exemple, nous allons créer une action qui affiche des informations "
 "intéressantes à propos de la sélection actuelle."
@@ -4326,7 +4326,7 @@ msgstr ""
 "d'E/S."
 
 #: C/nautilus-actions-config-tool.xml:171(title)
-msgid "Miscellaneous informations"
+msgid "Miscellaneous information"
 msgstr "Informations diverses"
 
 #: C/nautilus-actions-config-tool.xml:1(para)
@@ -4334,7 +4334,7 @@ msgid ""
 "The new action is also displayed in red color in the items list. Red color "
 "is used as an indicator that the item is invalid, that is that the item "
 "cannot be candidate to be displayed in a <productname>Nautilus</productname> "
-"context menu because some of its informations are missing or erroneous. "
+"context menu because some of its information is missing or erroneous. "
 "Here, and though this newly inserted action has some suitable defaults, it "
 "lacks a command to be executed to be considered valid by "
 "<application>FileManager-Actions Configuration Tool</application>"

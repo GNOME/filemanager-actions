@@ -990,7 +990,7 @@ fma_tree_ieditable_set_items( FMATreeIEditable *instance, GList *items )
  * fma_tree_ieditable_dump_modified:
  * @instance: this #FMATreeIEditable *instance.
  *
- * Dump informations about modified items.
+ * Dump information about modified items.
  */
 void
 fma_tree_ieditable_dump_modified( const FMATreeIEditable *instance )

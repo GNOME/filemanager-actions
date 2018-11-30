@@ -1035,7 +1035,7 @@ msgstr "Stavová lišta"
 
 #: C/fma-config-tool.xml:401(para)
 msgid ""
-"The statusbar displays some status informations about the currently selected "
+"The statusbar displays some status information about the currently selected "
 "row in the items list."
 msgstr ""
 "Stavová lišta zobrazuje některé informace o právě vybraném řádku v seznamu "
@@ -1064,7 +1064,7 @@ msgstr "Vytvoření vaší první akce"
 #: C/fma-config-tool.xml:424(para)
 msgid ""
 "In this example, we are going to create an action which displays some pretty "
-"informations about the current selection."
+"information about the current selection."
 msgstr ""
 "V tomto příkladu vytvoříme akci, která bude zobrazovat některé pěkné "
 "informace o aktuálním výběru."
@@ -4169,7 +4169,7 @@ msgid "Shows the tab which lets you define I/O providers preferences."
 msgstr "Ukazuje kartu, na které můžete definovat předvolby poskytovatelů V/V."
 
 #: C/fma-config-tool.xml:180(title)
-msgid "Miscellaneous informations"
+msgid "Miscellaneous information"
 msgstr "Různé"
 
 #: C/fma-config-tool.xml:1(para)
@@ -4177,7 +4177,7 @@ msgid ""
 "The new action is also displayed in red color in the items list. Red color "
 "is used as an indicator that the item is invalid, that is that the item "
 "cannot be candidate to be displayed in a file manager context menu because "
-"some of its informations are missing or erroneous. Here, and though this "
+"some of its information is missing or erroneous. Here, and though this "
 "newly inserted action has some suitable defaults, it lacks a command to be "
 "executed to be considered valid by <application>FileManager-Actions "
 "configuration tool</application>"

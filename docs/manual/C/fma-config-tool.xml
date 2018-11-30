@@ -174,10 +174,10 @@
   </sect1>
 
 <!-- ============================ Misc ================================ -->
-<!-- informations I do not know where to put -->
+<!-- information I do not know where to put -->
 
   <sect1 id="misc">
-    <title>Miscellaneous informations</title>
+    <title>Miscellaneous information</title>
     &emisc-infos;
   </sect1>
 

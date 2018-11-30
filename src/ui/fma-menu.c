@@ -94,7 +94,7 @@ typedef struct {
 static sActionEntry st_app_entries[] = {
 		{{ "about", on_app_about },
 				/* i18n: status bar tooltip displayed on “About” item navigation */
-				N_( "Display informations about this program" )},
+				N_( "Display information about this program" )},
 		{{ "help", on_app_help },
 				/* i18n: status bar tooltip displayed on “Help” item navigation */
 				N_( "Display help about this program" )},

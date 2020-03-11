@@ -359,10 +359,10 @@ msgstr "September 2015"
 
 #: C/fma-config-tool.xml:7(para)
 msgid ""
-"Permission is granted to copy, distribute and/or modify this document under the terms of the GNU Free Documentation License (GFDL), Version 1.3 or any later version published by the Free Software Foundation with no Invariant Sections, no Front-Cover Texts, and no Back-Cover Texts. You can find a copy of the GFDL at this <ulink type=\"help\" url=\"ghelp:fdl\">link</ulink> or in the file COPYING-"
+"Permission is granted to copy, distribute and/or modify this document under the terms of the GNU Free Documentation License (GFDL), Version 1.3 or any later version published by the Free Software Foundation with no Invariant Sections, no Front-Cover Texts, and no Back-Cover Texts. You can find a copy of the GFDL at this <ulink type=\"help\" url=\"help:fdl\">link</ulink> or in the file COPYING-"
 "DOCS distributed with this manual."
 msgstr ""
-"Das vorliegende Dokument kann gemäß den Bedingungen der GNU Free Documentation License (GFDL), Version 1.3 oder jeder späteren, von der Free Software Foundation veröffentlichten Version ohne unveränderbare Abschnitte sowie ohne Texte auf dem vorderen und hinteren Buchdeckel kopiert, verteilt und/oder modifiziert werden. Eine Kopie der GFDL finden Sie unter diesem <ulink type=\"help\" url=\"ghelp:"
+"Das vorliegende Dokument kann gemäß den Bedingungen der GNU Free Documentation License (GFDL), Version 1.3 oder jeder späteren, von der Free Software Foundation veröffentlichten Version ohne unveränderbare Abschnitte sowie ohne Texte auf dem vorderen und hinteren Buchdeckel kopiert, verteilt und/oder modifiziert werden. Eine Kopie der GFDL finden Sie unter diesem <ulink type=\"help\" url=\"help:"
 "fdl\">Link</ulink> oder in der mit diesem Handbuch gelieferten Datei COPYING-DOCs."
 
 #: C/fma-config-tool.xml:17(para)
@@ -2777,10 +2777,10 @@ msgstr "Weitere Informationen über <productname>FileManager-Actions</productnam
 
 #: C/fma-config-tool.xml:224(para)
 msgid ""
-"To report a bug or make a suggestion regarding <productname>FileManager-Actions</productname>, the <application>FileManager-Actions configuration tool</application> or this manual, follow the directions in the <ulink url=\"ghelp:user-guide#feedback\" type=\"help\">GNOME Feedback Page</ulink>, or you may prefer, at your convenience, directly open a bug or a request for enhancement in <ulink url="
+"To report a bug or make a suggestion regarding <productname>FileManager-Actions</productname>, the <application>FileManager-Actions configuration tool</application> or this manual, follow the directions in the <ulink url=\"help:user-guide#feedback\" type=\"help\">GNOME Feedback Page</ulink>, or you may prefer, at your convenience, directly open a bug or a request for enhancement in <ulink url="
 "\"https://gitlab.gnome.org/GNOME/filemanager-actions/issues/new\" type=\"http\">GNOME Gitlab</ulink>."
 msgstr ""
-"Um Fehler zu melden oder Vorschläge für <productname>Dateimanager-Aktionen</productname>, das <application>Konfigurationswerkzeug für Dateimanager-Aktionen</application> oder dieses Handbuch einzureichen, folgen Sie bitte den Anweisungen auf der <ulink url=\"ghelp:user-guide#feedback\" type=\"help\">GNOME-Seite für Rückmeldungen</ulink>. Auf Wunsch können Sie auch direkt Fehlermeldungen oder "
+"Um Fehler zu melden oder Vorschläge für <productname>Dateimanager-Aktionen</productname>, das <application>Konfigurationswerkzeug für Dateimanager-Aktionen</application> oder dieses Handbuch einzureichen, folgen Sie bitte den Anweisungen auf der <ulink url=\"help:user-guide#feedback\" type=\"help\">GNOME-Seite für Rückmeldungen</ulink>. Auf Wunsch können Sie auch direkt Fehlermeldungen oder "
 "Verbesserungswünsche auf <ulink url=\"https://gitlab.gnome.org/GNOME/filemanager-actions/issues/new\" type=\"http\">GNOME Gitlab</ulink> abgeben."
 
 #: C/fma-config-tool.xml:2(title)

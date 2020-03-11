@@ -281,7 +281,7 @@ on_app_help( GSimpleAction *action, GVariant *parameter, gpointer user_data )
 	g_return_if_fail( user_data && FMA_IS_APPLICATION( user_data ));
 
 	error = NULL;
-	gtk_show_uri( NULL, "ghelp:filemanager-actions-config-tool", GDK_CURRENT_TIME, &error );
+	gtk_show_uri( NULL, "help:fma-config-tool", GDK_CURRENT_TIME, &error );
 	if( error ){
 		g_warning( "%s: %s", thisfn, error->message );
 		g_error_free( error );

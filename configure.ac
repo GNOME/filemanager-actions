@@ -135,13 +135,8 @@ if test "${enable_gtk_doc}" = "yes" -a "${enable_deprecated}" = "no"; then
 	AC_MSG_WARN([API documentation will be incomplete as deprecated symbols are disabled])
 fi
 
-# check for gnome-doc-utils
-# - starting with N-A 3.1.5, gnome-doc-utils is no more required when one want
-#   compile the tarball distribution (i.e. without regenerating users's manuals)
-GNOME_DOC_INIT(,,[gdu_cv_have_gdu=no])
-
-# add --enable-html-manuals and --enable-pdf-manuals configure options
-FMA_ENABLE_MANUALS
+# check for yelp-tools
+YELP_HELP_INIT
 
 ###
 

@@ -4,6 +4,6 @@ Type=Application
 _Name=FileManager-Actions Configuration Tool
 _Comment=Configure items to be added to the File-Manager context menus
 Exec=fma-config-tool
-Icon=fma-config-tool
+Icon=filemanager-actions
 Categories=System;FileTools;FileManager;
 StartupNotify=true

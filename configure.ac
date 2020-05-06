@@ -63,10 +63,7 @@ FMA_MAINTAINER_CHECK_MODE
 AM_PROG_LIBTOOL
 
 # we are using pkgconfig for all development libraries we need
-AC_PATH_PROG(PKG_CONFIG, pkg-config, no)
-if test "${PKG_CONFIG}" = "no"; then
-	AC_MSG_ERROR([You need to install pkg-config])
-fi
+PKG_PROG_PKG_CONFIG
 
 # required versions of tools and libraries
 source ${0%/*}/fma_required_versions

@@ -14,7 +14,6 @@ config.guess
 config.sub
 configure
 depcomp
-gnome-doc-utils.make
 gtk-doc.make
 install-sh
 intltool-extract.in

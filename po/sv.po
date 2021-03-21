@@ -9,8 +9,8 @@ msgstr ""
 "Project-Id-Version: filemanager-actions\n"
 "Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/filemanager-actions/"
 "issues\n"
-"POT-Creation-Date: 2018-09-14 18:21+0000\n"
-"PO-Revision-Date: 2018-09-16 00:07+0200\n"
+"POT-Creation-Date: 2020-07-12 11:30+0000\n"
+"PO-Revision-Date: 2021-03-21 18:59+0100\n"
 "Last-Translator: Anders Jonsson <anders.jonsson@norsjovallen.se>\n"
 "Language-Team: Swedish <tp-sv@listor.tp-sv.se>\n"
 "Language: sv\n"
@@ -18,7 +18,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Poedit 2.1.1\n"
+"X-Generator: Poedit 2.4.2\n"
 
 #: ../src/core/fma-exporter.c:52 ../src/core/fma-importer.c:87
 msgid "_Ask me"
@@ -2311,7 +2311,7 @@ msgstr "Etiketten som visas i filhanterarens verktygsfält."
 
 #: ../src/ui/fma-main-window.ui.h:19
 msgid "Toolti_p :"
-msgstr "Verktygsti_ps:"
+msgstr "In_foruta:"
 
 #: ../src/ui/fma-main-window.ui.h:20
 msgid "The tooltip displayed in the file manager user interface."
